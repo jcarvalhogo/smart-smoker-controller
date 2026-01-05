@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/protobuf-c",
+		"source" : "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/protobuf-c"
+	}
+}

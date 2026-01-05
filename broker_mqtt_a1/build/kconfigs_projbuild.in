@@ -1,0 +1,5 @@
+source "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/l/disk0/josemar/development/pessoal/curso-iot/esp32/esp-idf/components/partition_table/Kconfig.projbuild"

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/CMakeFiles/bootloader
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/CMakeFiles/bootloader.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/CMakeFiles/bootloader-complete.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,0 +1,20 @@
+idf_component_register(
+        SRCS
+        "app_dht22.c"
+        "app_mqtt.c"
+        "app_air_intake.c"
+        "app_wifi_led.c"
+        "app_valve.c"
+        INCLUDE_DIRS
+        "include"
+        REQUIRES
+        ports
+        domain
+        platform_esp32
+        PRIV_REQUIRES
+        dht
+        log
+        esp_idf_lib_helpers
+        espressif__mqtt
+        esp_driver_i2c
+)

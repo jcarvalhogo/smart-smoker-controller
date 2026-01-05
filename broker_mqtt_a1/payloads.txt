@@ -1,0 +1,68 @@
+###############################################################################
+# MQTT – MONITORAR (SUB)
+###############################################################################
+
+# Tudo do namespace
+mosquitto_sub -h 192.168.3.3 -t 'JC_GO/#' -v
+
+# Air intake
+mosquitto_sub -h 192.168.3.3 -t 'JC_GO/air/intake' -v
+
+# Gas valve
+mosquitto_sub -h 192.168.3.3 -t 'JC_GO/gas/valve' -v
+
+# Temperature
+mosquitto_sub -h 192.168.3.3 -t 'JC_GO/temperature' -v
+
+# Humidity
+mosquitto_sub -h 192.168.3.3 -t 'JC_GO/humidity' -v
+
+
+###############################################################################
+# MQTT – COMANDOS (PUB)
+###############################################################################
+
+# -----------------------
+# AIR INTAKE (angle)
+# -----------------------
+
+# Fechar (0°)
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/air/intake' -m '{"angle":0}'
+
+# Meio termo (90°)
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/air/intake' -m '{"angle":90}'
+
+# Abrir totalmente (180°)
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/air/intake' -m '{"angle":180}'
+
+
+# -----------------------
+# GAS VALVE (percent)
+# -----------------------
+
+# Fechar (0%)
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/gas/valve' -m '{"percent":0}'
+
+# Abrir 30%
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/gas/valve' -m '{"percent":30}'
+
+# Abrir 100%
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/gas/valve' -m '{"percent":100}'
+
+
+# -----------------------
+# GAS VALVE (action)
+# -----------------------
+
+# Abrir
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/gas/valve' -m '{"action":"open"}'
+
+# Fechar
+mosquitto_pub -h 192.168.3.3 -t 'JC_GO/gas/valve' -m '{"action":"close"}'
+
+
+###############################################################################
+# ESP32 – MONITOR SERIAL
+###############################################################################
+
+idf.py -p /dev/ttyUSB0 monitor

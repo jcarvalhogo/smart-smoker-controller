@@ -1,0 +1,2 @@
+source /l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader/gdbinit/symbols
+source /l/disk0/josemar/development/pessoal/curso-iot/esp32/projects/broker_mqtt_a1/build/bootloader/gdbinit/connect
